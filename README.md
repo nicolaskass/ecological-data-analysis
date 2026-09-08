@@ -170,3 +170,6 @@ and analytical systems for small businesses at [T³](https://t3.com.ar).
 
 Findings, manuscript text and unpublished data are omitted throughout. The reproducibility
 packages linked above are published under MIT.
+
+**Licence:** the writing in this repository is published under
+[CC BY 4.0](LICENSE) — reuse it, quote it, build on it, with attribution.
