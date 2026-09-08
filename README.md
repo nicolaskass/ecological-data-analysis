@@ -174,7 +174,7 @@ review, and a confidently wrong one becomes a retraction rather than a bug repor
 
 ## Author
 
-Nicolás Kass — biologist (zoology), PhD candidate at UNLP, ISO 9001 consultant, and
+Nicolas Kass — biologist (zoology), PhD candidate at UNLP, ISO 9001 consultant, and
 software architect. Field ecology and conservation of Patagonian amphibians; operational
 and analytical systems for small businesses at [T³](https://t3.com.ar).
 
