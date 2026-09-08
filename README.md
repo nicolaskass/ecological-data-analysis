@@ -49,6 +49,7 @@ Measured from the four public packages.
 | Inference | Bayesian MCMC, hand-implemented adaptive Metropolis–Hastings |
 | Validation | posterior predictive checks, prior sensitivity, WAIC with SE, bias simulation, cross-check against an established R implementation |
 | Study design | 3 primary sessions, 14 secondary occasions, 275 individuals |
+| Also | species distribution modelling over 5,427 water bodies · 38 environmental layers |
 
 ## The four packages
 
@@ -61,6 +62,15 @@ dependencies and an MIT licence.
 | [`atelognathus-reverberii-microhabitat`](https://github.com/nicolaskass/atelognathus-reverberii-microhabitat) | Microhabitat selection across three zones, quadrant sampling |
 | [`atelognathus-reverberii-morphometrics`](https://github.com/nicolaskass/atelognathus-reverberii-morphometrics) | Morphometric analysis, including recaptured individuals |
 | [`atelognathus-reverberii-population-dynamics`](https://github.com/nicolaskass/atelognathus-reverberii-population-dynamics) | Population dynamics from capture histories |
+
+A fifth manuscript, on regional habitat suitability, is in preparation. Its package is not
+public yet: the modelling approach has elements without clear precedent in the literature,
+and publishing a method before submitting the paper is the one disclosure risk not worth
+taking. The **data engineering** behind it — a 38-layer multi-source satellite stack, a
+vector inventory of 5,427 water bodies derived from a surface-water product, zonal profile
+extraction, and a generated provenance manifest — is documented in
+[geospatial-data-processing](https://github.com/nicolaskass/geospatial-data-processing#satellite-data-engineering),
+because none of that gives the method away.
 
 ## What's in this repository
 
