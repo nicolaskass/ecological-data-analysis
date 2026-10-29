@@ -3,11 +3,11 @@
 # Ecological Data Analysis — Methods & Decision Record
 
 Statistical analysis of field data from a threatened Patagonian amphibian: mark–recapture
-population estimation, morphometrics, and microhabitat selection. Four manuscripts, four
-public reproducibility packages, one methodological standard.
+population estimation, morphometrics, and microhabitat selection. One reproducibility
+package per manuscript, one methodological standard.
 
-**This repository contains no results.** The manuscripts are in review or in preparation,
-and their findings belong in the journals. What is documented here is the *method*: how
+**This repository contains no results.** The manuscripts are in preparation, and their
+findings belong in the journals. What is documented here is the *method*: how
 the analyses are built, validated, packaged and defended.
 
 ---
@@ -48,20 +48,21 @@ Measured from the four public packages.
 | Core stack | NumPy · SciPy · pandas · Matplotlib |
 | Inference | Bayesian MCMC, hand-implemented adaptive Metropolis–Hastings |
 | Validation | posterior predictive checks, prior sensitivity, WAIC with SE, bias simulation, cross-check against an established R implementation |
-| Study design | 3 primary sessions, 14 secondary occasions, 275 individuals |
 | Also | species distribution modelling over 5,427 water bodies · 38 environmental layers |
 
-## The four packages
+## The packages
 
-Public reproducibility repositories, each with data, scripts, pre-computed outputs, pinned
-dependencies and an MIT licence.
+One reproducibility repository per manuscript, each with data, scripts, pre-computed
+outputs, pinned dependencies and an MIT licence. They are **private until each paper is
+accepted** (see [ADR-006](decisions/ADR-006-publish-the-package-with-the-paper.md)), then
+published with a DOI.
 
-| Package | Analysis |
-|---|---|
-| [`atelognathus-reverberii-cmr`](https://github.com/nicolaskass/atelognathus-reverberii-cmr) | Bayesian Pollock's Robust Design capture–mark–recapture, with an extended diagnostics suite |
-| [`atelognathus-reverberii-microhabitat`](https://github.com/nicolaskass/atelognathus-reverberii-microhabitat) | Microhabitat selection across three zones, quadrant sampling |
-| [`atelognathus-reverberii-morphometrics`](https://github.com/nicolaskass/atelognathus-reverberii-morphometrics) | Morphometric analysis, including recaptured individuals |
-| [`atelognathus-reverberii-population-dynamics`](https://github.com/nicolaskass/atelognathus-reverberii-population-dynamics) | Population dynamics from capture histories |
+| Analysis |
+|---|
+| Bayesian capture–mark–recapture (robust design), with an extended diagnostics suite |
+| Microhabitat selection |
+| Morphometrics, including recaptured individuals |
+| Population dynamics from capture histories |
 
 A fifth manuscript, on regional habitat suitability, is in preparation. Its package is not
 public yet: the modelling approach has elements without clear precedent in the literature,
@@ -179,7 +180,7 @@ software architect. Field ecology and conservation of Patagonian amphibians; ope
 and analytical systems for small businesses at [T³](https://t3.com.ar).
 
 Findings, manuscript text and unpublished data are omitted throughout. The reproducibility
-packages linked above are published under MIT.
+packages are published under MIT as each paper is accepted.
 
 **Licence:** the writing in this repository is published under
 [CC BY 4.0](LICENSE) — reuse it, quote it, build on it, with attribution.

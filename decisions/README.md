@@ -20,5 +20,5 @@ Dates are when the decision landed in a repository, taken from repository histor
 | [003](ADR-003-priors-justified-and-tested.md) | Priors are justified from literature and tested for influence | 2026-05 | Accepted |
 | [004](ADR-004-simulate-your-own-bias.md) | Simulate the estimator's own bias | 2026-05 | Accepted |
 | [005](ADR-005-data-decisions-live-in-the-code.md) | Data decisions live in the code | 2026-04 | Accepted |
-| [006](ADR-006-publish-the-package-with-the-paper.md) | Publish the reproducibility package with the paper | 2026-04 | Accepted |
+| [006](ADR-006-publish-the-package-with-the-paper.md) | Publish the reproducibility package with the paper | 2026-04 | Accepted, amended 2026-10 |
 | [007](ADR-007-apparent-survival-is-not-survival.md) | Apparent survival is not survival | 2026-05 | Accepted |

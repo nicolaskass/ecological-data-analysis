@@ -1,6 +1,6 @@
 # ADR-006 — Publish the reproducibility package with the paper
 
-**Date:** 2026-04 · **Status:** Accepted
+**Date:** 2026-04 · **Status:** Accepted, timing amended 2026-10 (see the end)
 
 ## Context
 
@@ -75,3 +75,16 @@ credibility that cannot be obtained otherwise.
 The general position: **publishing the working is the difference between a claim and a
 result.** Every reason not to is a reason it is worth doing, because each one describes
 scrutiny being avoided.
+
+## Amendment, 2026-10 — timing
+
+The packages went private. Some of the manuscripts are under double-anonymous review, and a
+public repository carrying the manuscript's title, author list and study design lets a
+reviewer identify the authors with one search. The disclosure risk accepted above was about
+scooping; this one breaks the review process itself, and that is not a risk the authors get
+to accept on the journal's behalf.
+
+The standard does not change: complete package, MIT, a stranger can regenerate every
+number. Only the timing does. Each package is made public on acceptance, archived with a
+DOI, and cited in the paper's data availability statement. The reviewers who need to run it
+get it through the journal.
